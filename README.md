@@ -3,109 +3,223 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wheat Farming Guide</title>
+
+<title>Wheat Farming Guide - Telangana</title>
 
 <style>
+
 body{
-    font-family: Arial;
-    background:#fff8e7;
     margin:0;
+    font-family:Arial;
+    background:#fff8e7;
     color:#333;
 }
+
 header{
-    background:#c0392b;
+    background:#b33939;
     color:white;
     text-align:center;
-    padding:25px;
+    padding:30px;
 }
+
+header h1{
+    margin:0;
+    font-size:40px;
+}
+
 .container{
     width:85%;
     margin:auto;
     padding:20px;
 }
+
 .card{
     background:white;
     padding:20px;
     margin-bottom:20px;
-    border-radius:10px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
+
 h2{
-    color:#c0392b;
+    color:#b33939;
 }
+
+ul{
+    line-height:1.8;
+}
+
 table{
     width:100%;
     border-collapse:collapse;
+    margin-top:10px;
 }
+
 table,th,td{
     border:1px solid #ccc;
 }
+
 th{
-    background:#c0392b;
+    background:#b33939;
     color:white;
-}
-th,td{
     padding:10px;
 }
+
+td{
+    padding:10px;
+    text-align:center;
+}
+
+.highlight{
+    color:green;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.scheme{
+    background:#fff1f1;
+    border-left:6px solid #b33939;
+    padding:15px;
+    margin-top:12px;
+    border-radius:8px;
+}
+
 </style>
+
 </head>
 
 <body>
 
 <header>
-<h1>🌾 Wheat Farming Guide</h1>
+<h1>🌾 Wheat Farming Guide - Telangana</h1>
+<p>Complete Guide for Farmers</p>
 </header>
 
 <div class="container">
 
+<!-- SOIL -->
 <div class="card">
-<h2>🌱 Soil</h2>
+<h2>🌱 Soil Required</h2>
 <ul>
 <li>Loamy soil</li>
 <li>Well-drained fertile soil</li>
+<li>High organic matter soil</li>
+<li>pH level 6.0 - 7.5</li>
 </ul>
 </div>
 
+<!-- WEATHER -->
 <div class="card">
-<h2>☀️ Weather</h2>
+<h2>☀️ Weather Conditions</h2>
 <ul>
-<li>10°C - 25°C</li>
-<li>Cool climate</li>
+<li>Temperature: 10°C - 25°C</li>
+<li>Cool climate during growth</li>
+<li>Dry weather during harvest</li>
+<li>Low rainfall required</li>
 </ul>
 </div>
 
+<!-- SEASON -->
 <div class="card">
 <h2>📅 Season</h2>
-<p>Rabi Season</p>
-</div>
-
-<div class="card">
-<h2>🧪 Fertilizers</h2>
-<ul>
-<li>Urea</li>
-<li>DAP</li>
-<li>Potash</li>
-</ul>
-</div>
-
-<div class="card">
-<h2>🌾 Yield & Economics</h2>
 
 <table>
 <tr>
-<th>Details</th>
+<th>Crop Season</th>
+<th>Sowing Time</th>
+<th>Harvest Time</th>
+</tr>
+
+<tr>
+<td>Rabi</td>
+<td>October - November</td>
+<td>March - April</td>
+</tr>
+</table>
+
+</div>
+
+<!-- FERTILIZERS -->
+<div class="card">
+<h2>🧪 Fertilizers Recommended</h2>
+<ul>
+<li>Urea</li>
+<li>DAP (Di-Ammonium Phosphate)</li>
+<li>Potash (MOP)</li>
+<li>Zinc Sulphate</li>
+<li>Organic Compost</li>
+</ul>
+</div>
+
+<!-- ECONOMICS -->
+<div class="card">
+<h2>💰 Economics Per Acre</h2>
+
+<table>
+
+<tr>
+<th>Category</th>
 <th>Amount</th>
 </tr>
 
 <tr>
+<td>Total Cost</td>
+<td>₹15,000 - ₹25,000</td>
+</tr>
+
+<tr>
 <td>Yield</td>
-<td>15 - 25 Quintals/Acre</td>
+<td>15 - 25 Quintals</td>
+</tr>
+
+<tr>
+<td>Income</td>
+<td>₹40,000 - ₹60,000</td>
 </tr>
 
 <tr>
 <td>Profit</td>
-<td>₹15,000 - ₹30,000</td>
+<td class="highlight">₹15,000 - ₹30,000</td>
 </tr>
+
 </table>
+
+</div>
+
+<!-- GOVERNMENT SCHEMES -->
+<div class="card">
+
+<h2>🏛️ Telangana Government Schemes</h2>
+
+<div class="scheme">
+<h3>🌾 Rythu Bharosa</h3>
+<p>Financial assistance is provided to farmers per acre for seasonal crop investment and input costs.</p>
+</div>
+
+<div class="scheme">
+<h3>🛡️ Rythu Bima</h3>
+<p>Life insurance coverage for farmers. Compensation is given to family in case of farmer death.</p>
+</div>
+
+<div class="scheme">
+<h3>⚡ Free Electricity for Agriculture</h3>
+<p>Free power supply for borewells and irrigation pumps to reduce farming cost.</p>
+</div>
+
+<div class="scheme">
+<h3>🌱 Soil Health Card Scheme</h3>
+<p>Government provides soil testing reports and fertilizer recommendations to improve yield.</p>
+</div>
+
+<div class="scheme">
+<h3>🏪 MSP Procurement</h3>
+<p>Wheat is purchased by government at Minimum Support Price ensuring fair income to farmers.</p>
+</div>
+
+<div class="scheme">
+<h3>💧 Irrigation Projects (Kaleshwaram & Others)</h3>
+<p>Large irrigation projects improve water availability for agriculture in Telangana.</p>
+</div>
 
 </div>
 
